@@ -26,8 +26,6 @@ export function NoteForm ({ onSubmit }:NoteFormProps ) {
     return <Form onSubmit={handleSubmit}>
         <Stack gap={4}>
             <Row>
-                <>yohohoho</>
-                <>Arararaa</>
                 <Col>
                     <Form.Group controlId="title">
                         <Form.Label>Title</Form.Label>
